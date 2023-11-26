@@ -1,6 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Kick Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Stack
+
+![Static Badge](https://img.shields.io/badge/Node-v20.9.0-%23339933?logo=Node.js)
+
+- Nuxt 3
+  - [Nuxt UI](https://ui.nuxt.com/)
+  - [Nuxt Image](https://image.nuxt.com/)
+- tailwindcss
+- SCSS
 
 ## Setup
 
