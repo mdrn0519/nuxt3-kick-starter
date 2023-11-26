@@ -1,0 +1,61 @@
+{
+  // File excludes
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.nuxt": true,
+    "**/.husky": true
+  },
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // Settings when saving code
+  "eslint.runtime": "node",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false,
+    "source.fixAll.stylelint": true
+  },
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+
+  // Editor base settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // ESLint base settings
+  "eslint.format.enable": true,
+  "eslint.validate": ["html", "javascript", "javascriptreact", "vue"],
+
+  "scss.validate": false,
+  "css.validate": false,
+
+  // Stylelint base settings
+  "stylelint.validate": ["css", "scss", "vue"],
+
+  // TypeScript
+  "typescript.format.enable": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // JavaScript
+  "javascript.format.enable": false,
+
+  "cSpell.words": ["nuxt", "composables", "pinia"],
+
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["/\\*ui\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "ui"]
+}

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "misterj.vue-volar-extention-pack",
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
